@@ -229,6 +229,8 @@ Terminate Chrome now? [y/n]: y
    - 语言设置
    - `chrome://flags` 是否真正重启后生效
 
+注意，若Chrome进行了更新，可能会重置某些字段或覆盖修改。建议在每次 Chrome 更新后都检查一下 `Local State` 中的相关字段是否仍然是目标值，或重新执行脚本。
+
 ℹ️ 以下情况通常**不会直接影响**功能：
 
 - Google 账号地区不是美国

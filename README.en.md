@@ -229,6 +229,8 @@ If it still does not work after completing all steps, check the following first:
    - language settings
    - whether `chrome://flags` actually took effect after restart
 
+Note that if Chrome has been updated, it may reset some fields or overwrite modifications. It is recommended to check whether the relevant fields in `Local State` are still the target values after each Chrome update, or just re-run the script.
+
 ℹ️ The following usually **do not directly affect** functionality:
 
 - your Google account region is not the United States
