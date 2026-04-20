@@ -25,7 +25,7 @@
 
 ## 操作步骤
 
-提前说明：在我的环境下，有几个情况并**不会影响Glic功能**（如国家地区、VPN节点等），详细请查看[故障排除](# 故障排查)。你只需先按照以下步骤进行设置。
+提前说明：在我的环境下，有几个情况并**不会影响Glic功能**（如国家地区、VPN节点等），详细请查看[故障排查](#故障排查)。你只需先按照以下步骤进行设置。
 
 ### 1. 更改Chrome的实验性功能开关
 
@@ -58,14 +58,14 @@ Local State文件中的配置项也会影响Glic是否生效。
 - Windows PowerShell：
 
   ```powershell
-  Invoke-WebRequest -Uri "<raw-file-url>/enable-chrome-ai.ps1" -OutFile "enable-chrome-ai.ps1"
+  Invoke-WebRequest -Uri "https://raw.githubusercontent.com/BreadIceCream/enable-chrome-ai/main/enable-chrome-ai.ps1" -OutFile "enable-chrome-ai.ps1"
   powershell -ExecutionPolicy Bypass -File .\enable-chrome-ai.ps1
   ```
 
 - macOS Bash：
 
   ```bash
-  curl -L "<raw-file-url>/enable-chrome-ai-mac.sh" -o enable-chrome-ai-mac.sh
+  curl -L "https://raw.githubusercontent.com/BreadIceCream/enable-chrome-ai/main/enable-chrome-ai-mac.sh" -o enable-chrome-ai-mac.sh
   chmod +x ./enable-chrome-ai-mac.sh
   ./enable-chrome-ai-mac.sh
   ```
@@ -75,7 +75,7 @@ Local State文件中的配置项也会影响Glic是否生效。
 - Windows PowerShell：
 
   ```powershell
-  git clone <repo-url>
+  git clone https://github.com/BreadIceCream/enable-chrome-ai.git
   cd enable-chrome-ai
   powershell -ExecutionPolicy Bypass -File .\enable-chrome-ai.ps1
   ```
@@ -83,7 +83,7 @@ Local State文件中的配置项也会影响Glic是否生效。
 - macOS Bash：
 
   ```bash
-  git clone <repo-url>
+  git clone https://github.com/BreadIceCream/enable-chrome-ai.git
   cd enable-chrome-ai
   chmod +x ./enable-chrome-ai-mac.sh
   ./enable-chrome-ai-mac.sh
