@@ -1,5 +1,7 @@
 # Enable Chrome AI Whole Process
 
+[中文](README.md) | [English](README.en.md)
+
 用于在本地 Chrome 中启用和排查 `Ask Gemini` / `Gemini Live in Chrome (GLIC)`，提供全流程操作步骤说明。
 
 ✨ 仓库包含：
